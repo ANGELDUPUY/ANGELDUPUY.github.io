@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Manuel Dupuy · Desarrollador web junior</title>
+<meta name="description" content="Portfolio de Manuel Dupuy, desarrollador web junior (Python, Flask) y creador de 365 Marea. Busco mi primera experiencia en IT.">
+<meta name="theme-color" content="#0b1222">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Manuel Dupuy · Desarrollador web junior">
+<meta property="og:description" content="Python, Flask y automatización con IA. Creador de 365 Marea. Busco mi primera experiencia en IT.">
+<meta property="og:image" content="https://angeldupuy.github.io/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<noscript><style>.rv{opacity:1;transform:none}#intro{display:none}html.lk,html.lk body{overflow:auto}</style></noscript>
+</head>
+<body>
+<script>document.documentElement.classList.add("lk")</script>
+
+<!-- Intro: olas que se dibujan + contador -->
+<div id="intro" aria-hidden="true">
+  <div class="iw">
+    <svg class="waves" viewBox="0 0 600 260" role="img" aria-label="">
+      <defs><linearGradient id="wg" x1="0" x2="1" y1="0" y2="0"><stop class="s1" offset="0"/><stop class="s2" offset="1"/></linearGradient></defs>
+      <path class="w w1" pathLength="1" d="M0 90 C50 50 100 50 150 90 S250 130 300 90 S400 50 450 90 S550 130 600 90"/>
+      <path class="w w2" pathLength="1" d="M0 90 C50 50 100 50 150 90 S250 130 300 90 S400 50 450 90 S550 130 600 90"/>
+      <path class="w w3" pathLength="1" d="M0 90 C50 50 100 50 150 90 S250 130 300 90 S400 50 450 90 S550 130 600 90"/>
+    </svg>
+    <div class="mono">MD</div>
+    <div class="pct"><span id="pct">0</span>%</div>
+  </div>
+  <button type="button" id="skip" data-i18n="ui.skip">Saltar</button>
+</div>
+
+<div class="glow" id="gl"></div>
+
+<aside class="sb" id="sb">
+  <img class="av" id="av" src="img/foto.svg" alt="Manuel Dupuy" width="96" height="96">
+  <div><div class="nmS">Manuel Dupuy</div><div class="rl" data-i18n="role"></div></div>
+  <nav id="nv">
+    <a href="#top" data-i18n="nav.home"></a><a href="#sobre-mi" data-i18n="nav.about"></a><a href="#experiencia" data-i18n="nav.exp"></a><a href="#proyectos" data-i18n="nav.pro"></a><a href="#skills" data-i18n="nav.sk"></a><a href="#contacto" data-i18n="nav.ct"></a>
+  </nav>
+  <div class="lang" role="group" aria-label="Idioma · Language · Idioma"><button type="button" data-l="es" aria-pressed="true">ES</button><button type="button" data-l="en" aria-pressed="false">EN</button><button type="button" data-l="pt" aria-pressed="false">PT</button></div>
+  <div class="row2">
+    <button id="tg" type="button" aria-label="Tema claro / oscuro">◐</button>
+    <div class="soc"><a href="https://linkedin.com/in/manueldupuy" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/ANGELDUPUY" target="_blank" rel="noopener">GitHub</a></div>
+  </div>
+</aside>
+<header class="top"><div class="bar"><a class="logo" href="#top">MD.</a><button id="mn" type="button" aria-label="Menú" aria-expanded="false">☰</button></div></header>
+
+<main>
+<!-- INICIO -->
+<section class="hero" id="top"><div class="blob b1"></div><div class="blob b2"></div>
+<div class="wrap">
+  <div class="avail rv"><i></i><span data-i18n="hero.av"></span></div>
+  <div class="eyebrow rv" data-i18n="hero.eb"></div>
+  <h1 class="rv" id="nm" aria-label="Manuel Dupuy">Manuel Dupuy</h1>
+  <p class="sub rv"><span data-i18n="hero.s1"></span> <span class="rot" id="rot"></span><br><span data-i18n="hero.s2"></span></p>
+  <div class="cta rv"><a class="btn p" href="#proyectos" data-i18n="hero.c1"></a><a class="btn" href="#contacto" data-i18n="hero.c2"></a><a class="btn" href="cv/CV_Manuel_Dupuy.pdf" download data-i18n="hero.c3"></a></div>
+  <div class="stats rv">
+    <div class="st"><b data-n="9" data-s="+">9+</b><span data-i18n="st.a"></span></div>
+    <div class="st"><b data-n="400" data-s="+">400+</b><span data-i18n="st.b"></span></div>
+    <div class="st"><b data-n="1100" data-s="+">1.100+</b><span data-i18n="st.c"></span></div>
+    <div class="st"><b data-n="2" data-s="">2</b><span data-i18n="st.d"></span></div>
+  </div>
+</div></section>
+
+<!-- Cinta de tecnologías -->
+<div class="marquee" aria-label="Tecnologías"><div class="track" id="trk">
+  <span class="tk">Python</span><span class="tk">Flask</span><span class="tk">Jinja</span><span class="tk">SQLite</span><span class="tk">JavaScript</span><span class="tk">HTML5</span><span class="tk">CSS3</span><span class="tk">Linux</span><span class="tk">Google Cloud</span><span class="tk">nginx</span><span class="tk">Cloudflare</span><span class="tk">Git</span><span class="tk">GitHub Actions</span><span class="tk">IMAP / SMTP</span><span class="tk">Salesforce</span><span class="tk">Java</span><span class="tk">Spring Boot</span><span class="tk">MySQL</span><span class="tk">Claude Code</span>
+</div></div>
+
+<!-- SOBRE MÍ -->
+<section id="sobre-mi"><div class="wrap">
+  <h2 class="rv"><small data-i18n="about.l"></small><span data-i18n="about.t"></span></h2>
+  <div class="about rv">
+    <div class="ph"><img id="ph" src="img/foto.svg" alt="Manuel Dupuy" width="340" height="340"></div>
+    <div><p data-i18n="about.p1"></p><p data-i18n="about.p2"></p></div>
+  </div>
+</div></section>
+
+<!-- EXPERIENCIA -->
+<section id="experiencia"><div class="wrap">
+  <h2 class="rv"><small data-i18n="exp.l"></small><span data-i18n="exp.t"></span></h2>
+  <div class="tl">
+    <article class="job rv"><h3 data-i18n="j1.t"></h3><div class="co" data-i18n="j1.co"></div><span class="dt" data-i18n="j1.d"></span>
+      <ul><li data-i18n="j1.a"></li><li data-i18n="j1.b"></li><li data-i18n="j1.c"></li></ul>
+      <details class="more"><summary data-i18n="j1.m"></summary>
+        <div class="mg">
+          <div><h4 data-i18n="j1.k1"></h4><p data-i18n="j1.v1"></p></div>
+          <div><h4 data-i18n="j1.k2"></h4><p data-i18n="j1.v2"></p></div>
+          <div><h4 data-i18n="j1.k3"></h4><p data-i18n="j1.v3"></p></div>
+          <div><h4 data-i18n="j1.k4"></h4><p data-i18n="j1.v4"></p></div>
+          <div class="mt"><h4 data-i18n="j1.k5"></h4><p><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">Jinja</span><span class="tag">SQLite</span><span class="tag">IMAP/SMTP</span><span class="tag">GitHub Actions</span><span class="tag">Google Cloud</span><span class="tag">Claude Code</span></p></div>
+        </div></details></article>
+    <article class="job rv"><h3 data-i18n="j2.t"></h3><div class="co" data-i18n="j2.co"></div><span class="dt" data-i18n="j2.d"></span>
+      <ul><li data-i18n="j2.a"></li><li data-i18n="j2.b"></li><li data-i18n="j2.c"></li></ul>
+      <details class="more"><summary data-i18n="j2.m"></summary>
+        <div class="mg">
+          <div><h4 data-i18n="j2.k1"></h4><p data-i18n="j2.v1"></p></div>
+          <div><h4 data-i18n="j2.k2"></h4><p data-i18n="j2.v2"></p></div>
+          <div class="mt"><h4 data-i18n="j1.k5"></h4><p><span class="tag">Salesforce</span><span class="tag">CRM</span><span class="tag">NPS</span><span class="tag">SLA</span></p></div>
+        </div></details></article>
+    <article class="job rv"><h3 data-i18n="j3.t"></h3><div class="co" data-i18n="j3.co"></div><span class="dt" data-i18n="j3.d"></span>
+      <ul><li data-i18n="j3.a"></li></ul></article>
+  </div>
+</div></section>
+
+<!-- PROYECTOS -->
+<section id="proyectos"><div class="wrap">
+  <h2 class="rv"><small data-i18n="pro.l"></small><span data-i18n="pro.t"></span></h2>
+
+  <article class="feat rv">
+    <div class="shots">
+      <div class="browser"><div class="bar"><i></i><i></i><i></i><span>365marea.com</span></div>
+        <img src="img/marea-desktop.webp" width="1280" height="800" alt="Portada de 365marea.com" loading="lazy"></div>
+      <img class="phone" src="img/marea-mobile.webp" width="420" height="909" alt="365marea.com en móvil" loading="lazy">
+    </div>
+    <div class="info">
+      <div class="kick"><img src="img/logo-icono-marea.svg" alt="" width="26" height="26"><span data-i18n="p1.k"></span></div>
+      <h3>365 Marea</h3>
+      <p data-i18n="p1.d"></p>
+      <ul><li data-i18n="p1.a"></li><li data-i18n="p1.b"></li><li data-i18n="p1.c"></li></ul>
+      <div class="tags"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">SQLite</span><span class="tag">IMAP/SMTP</span><span class="tag">Google Cloud</span></div>
+      <div class="links">
+        <a class="btn p" href="https://365marea.com" target="_blank" rel="noopener"><span data-i18n="ui.live"></span> ↗</a>
+        <a class="btn" href="https://github.com/ANGELDUPUY/365-marea" target="_blank" rel="noopener" data-i18n="ui.case"></a>
+        <button class="btn" id="playv" type="button" data-i18n="ui.play"></button>
+      </div>
+      <div class="vid" id="vid" hidden></div>
+    </div>
+  </article>
+
+  <article class="feat rev rv">
+    <div class="shots">
+      <div class="browser"><div class="bar"><i></i><i></i><i></i><span>ajfsf.com</span></div>
+        <img src="img/ajfsf-desktop.webp" width="1280" height="800" alt="Portada de ajfsf.com" loading="lazy"></div>
+      <img class="phone" src="img/ajfsf-mobile.webp" width="420" height="909" alt="ajfsf.com en móvil" loading="lazy">
+    </div>
+    <div class="info">
+      <div class="kick"><span data-i18n="p2.k"></span></div>
+      <h3>AJFSF</h3>
+      <p data-i18n="p2.d"></p>
+      <ul><li data-i18n="p2.a"></li><li data-i18n="p2.b"></li><li data-i18n="p2.c"></li></ul>
+      <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">nginx</span><span class="tag">Cloudflare</span></div>
+      <div class="links">
+        <a class="btn p" href="https://ajfsf.com" target="_blank" rel="noopener"><span data-i18n="ui.live"></span> ↗</a>
+        <a class="btn" href="https://github.com/ANGELDUPUY/ajfsf-sitio" target="_blank" rel="noopener" data-i18n="ui.case"></a>
+      </div>
+    </div>
+  </article>
+
+  <div class="grid">
+    <div class="pj rv"><div class="n">03</div><h3>Jarvis Bitcoin</h3><p data-i18n="p3.d"></p><span class="tag">JavaScript</span><span class="tag">PWA</span><span class="tag">API</span>
+      <a class="lk" href="https://github.com/ANGELDUPUY/jarvis-bitcoin" target="_blank" rel="noopener"><span data-i18n="ui.repo"></span> ↗</a></div>
+    <div class="pj rv"><div class="n">04</div><h3>Librería Spring Boot</h3><p data-i18n="p4.d"></p><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">MySQL</span>
+      <a class="lk" href="https://github.com/ANGELDUPUY/Libreria-Spring-Boot" target="_blank" rel="noopener"><span data-i18n="ui.repo"></span> ↗</a></div>
+  </div>
+</div></section>
+
+<!-- SKILLS -->
+<section id="skills"><div class="wrap">
+  <h2 class="rv"><small data-i18n="sk.l"></small><span data-i18n="sk.t"></span></h2>
+  <div class="sk rv">
+    <div><h3 data-i18n="sk.g1"></h3><span class="chip">Python</span><span class="chip">Flask</span><span class="chip">Jinja</span><span class="chip">SQL</span><span class="chip">SQLite</span><span class="chip">MySQL</span><span class="chip">Java</span><span class="chip">Spring Boot</span></div>
+    <div><h3 data-i18n="sk.g2"></h3><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">PWA</span><span class="chip">Thymeleaf</span><span class="chip">WCAG</span></div>
+    <div><h3 data-i18n="sk.g3"></h3><span class="chip">Linux</span><span class="chip">Google Cloud</span><span class="chip">nginx</span><span class="chip">Cloudflare</span><span class="chip">GitHub Actions</span><span class="chip">IMAP / SMTP</span></div>
+    <div><h3 data-i18n="sk.g4"></h3><span class="chip">Claude Code</span><span class="chip">Codex</span><span class="chip">ChatGPT</span><span class="chip">Prompts</span></div>
+    <div><h3 data-i18n="sk.g5"></h3><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Salesforce</span><span class="chip">CRM</span><span class="chip">Agile</span><span class="chip">NPS / SLA</span></div>
+  </div>
+  <div class="two rv" style="margin-top:2rem">
+    <div class="box"><h3 data-i18n="ed.t"></h3>
+      <p><b data-i18n="ed.a"></b><br><span data-i18n="ed.ad"></span></p>
+      <p><b data-i18n="ed.b"></b><br><span data-i18n="ed.bd"></span></p>
+      <p><b data-i18n="ed.c"></b><br><span data-i18n="ed.cd"></span></p></div>
+    <div class="box"><h3 data-i18n="lg.t"></h3><p data-i18n="lg.a"></p><p data-i18n="lg.b"></p><p data-i18n="lg.c"></p></div>
+  </div>
+</div></section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="contact"><div class="wrap">
+  <h2 class="rv" data-i18n="ct.t"></h2>
+  <p class="cp rv" data-i18n="ct.p"></p>
+  <a class="mail rv" href="https://linkedin.com/in/manueldupuy" target="_blank" rel="noopener" data-i18n="ct.in"></a>
+  <div class="cta c2 rv"><a class="btn" href="https://github.com/ANGELDUPUY" target="_blank" rel="noopener" data-i18n="ct.gh"></a><a class="btn p" href="cv/CV_Manuel_Dupuy.pdf" download data-i18n="ui.cv"></a></div>
+</div></section>
+</main>
+<footer data-i18n="foot"></footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
