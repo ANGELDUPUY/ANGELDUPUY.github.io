@@ -37,7 +37,7 @@ window.I18N = {
     p4: { d: "Trabajo final del curso Full Stack de Egg: JPA, relaciones bidireccionales, CRUD y vistas con Thymeleaf." },
     ui: { live: "Ver sitio en vivo", case: "Caso de estudio", repo: "Ver repositorio", play: "Ver cómo funciona", cv: "Descargar CV", skip: "Saltar" },
     sk: { l: "04 · Skills", t: "Con qué trabajo", g1: "Backend y datos", g2: "Frontend", g3: "Infra y despliegue", g4: "IA aplicada", g5: "Herramientas y negocio" },
-    ed: { t: "Formación", a: "Desarrollo Web Full Stack", ad: "Egg · Beca Santander", b: "Economía, Finanzas y Comercialización", bd: "UADE", c: "Cursos", cd: "Metodologías Ágiles y Blockchain aplicado a Finanzas · Universidad Blas Pascal" },
+    ed: { t: "Formación", u: "Tecnicatura Universitaria en Programación", ud: "UTN · en curso (2025 – 2027)", a: "Desarrollo Web Full Stack", ad: "Egg · Beca Santander", b: "Economía, Finanzas y Comercialización", bd: "UADE", c: "Cursos", cd: "Metodologías Ágiles y Blockchain aplicado a Finanzas · Universidad Blas Pascal" },
     lg: { t: "Idiomas", a: "Español · nativo", b: "Inglés · B1", c: "Italiano · básico" },
     ct: { t: "¿Construimos algo juntos?", p: "Busco mi primera experiencia en IT: desarrollo web junior, soporte técnico, QA o implementación y automatización de procesos. Escríbeme por LinkedIn.", in: "Escríbeme por LinkedIn", gh: "Ver mi GitHub" },
     foot: "© 2026 Manuel Dupuy · Buenos Aires, Argentina"
@@ -80,7 +80,7 @@ window.I18N = {
     p4: { d: "Final project of Egg's Full Stack course: JPA, bidirectional relationships, CRUD and Thymeleaf views." },
     ui: { live: "Visit live site", case: "Case study", repo: "View repository", play: "Watch how it works", cv: "Download CV", skip: "Skip" },
     sk: { l: "04 · Skills", t: "What I work with", g1: "Backend & data", g2: "Frontend", g3: "Infra & deployment", g4: "Applied AI", g5: "Tools & business" },
-    ed: { t: "Education", a: "Full Stack Web Development", ad: "Egg · Santander Scholarship", b: "Economics, Finance & Commercialization", bd: "UADE", c: "Courses", cd: "Agile Methodologies and Blockchain applied to Finance · Universidad Blas Pascal" },
+    ed: { t: "Education", u: "University Technical Degree in Programming", ud: "UTN · in progress (2025 – 2027)", a: "Full Stack Web Development", ad: "Egg · Santander Scholarship", b: "Economics, Finance & Commercialization", bd: "UADE", c: "Courses", cd: "Agile Methodologies and Blockchain applied to Finance · Universidad Blas Pascal" },
     lg: { t: "Languages", a: "Spanish · native", b: "English · B1", c: "Italian · basic" },
     ct: { t: "Shall we build something together?", p: "I'm looking for my first IT experience: junior web development, technical support, QA, or process implementation and automation. Message me on LinkedIn.", in: "Message me on LinkedIn", gh: "See my GitHub" },
     foot: "© 2026 Manuel Dupuy · Buenos Aires, Argentina"
@@ -123,7 +123,7 @@ window.I18N = {
     p4: { d: "Trabalho final do curso Full Stack da Egg: JPA, relacionamentos bidirecionais, CRUD e views com Thymeleaf." },
     ui: { live: "Ver site no ar", case: "Estudo de caso", repo: "Ver repositório", play: "Ver como funciona", cv: "Baixar CV", skip: "Pular" },
     sk: { l: "04 · Skills", t: "Com o que trabalho", g1: "Backend e dados", g2: "Frontend", g3: "Infra e deploy", g4: "IA aplicada", g5: "Ferramentas e negócio" },
-    ed: { t: "Formação", a: "Desenvolvimento Web Full Stack", ad: "Egg · Bolsa Santander", b: "Economia, Finanças e Comercialização", bd: "UADE", c: "Cursos", cd: "Metodologias Ágeis e Blockchain aplicado a Finanças · Universidad Blas Pascal" },
+    ed: { t: "Formação", u: "Tecnicatura Universitária em Programação", ud: "UTN · em andamento (2025 – 2027)", a: "Desenvolvimento Web Full Stack", ad: "Egg · Bolsa Santander", b: "Economia, Finanças e Comercialização", bd: "UADE", c: "Cursos", cd: "Metodologias Ágeis e Blockchain aplicado a Finanças · Universidad Blas Pascal" },
     lg: { t: "Idiomas", a: "Espanhol · nativo", b: "Inglês · B1", c: "Italiano · básico" },
     ct: { t: "Vamos construir algo juntos?", p: "Busco minha primeira experiência em TI: desenvolvimento web júnior, suporte técnico, QA ou implementação e automação de processos. Fale comigo pelo LinkedIn.", in: "Fale comigo no LinkedIn", gh: "Ver meu GitHub" },
     foot: "© 2026 Manuel Dupuy · Buenos Aires, Argentina"
